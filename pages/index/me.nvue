@@ -1,0 +1,20 @@
+<template>
+	<div>
+		{{msg}}
+		<button type="default">按钮nvue</button>
+	</div>
+</template>
+
+<script>
+	export default {
+		data:function(){
+			return{
+				msg:getApp().globalData.msg
+			}
+		}
+	}
+</script>
+
+<style>
+
+</style>
